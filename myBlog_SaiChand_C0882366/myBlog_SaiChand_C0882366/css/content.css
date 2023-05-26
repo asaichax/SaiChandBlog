@@ -1,0 +1,231 @@
+.sub-text {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*styles for image in sub-text*/
+.sub-text > img {
+    width: 100%;
+}
+
+/*styles for common flex model*/
+.sb {
+    justify-content: space-between;
+}
+
+/*styles for form container*/
+.form-container {
+    width: 100%;
+    margin-left: 20px;
+    padding: 2%;
+    background: #FFFFFF;
+    box-shadow: 2px 2px #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 4px rgba(88,88,88,0.33);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*styles for form*/
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*styles for form elements*/
+.form-controller-50 {
+    width: 50%;
+    display: flex;
+}
+
+/*styles for form elements*/
+.form-controller-100{
+    width: 100%;
+}
+
+/*styles for form elements*/
+.width-99{
+    width: 99%;
+}
+
+/*styles for form elements*/
+.firstname{
+    margin: auto 1% 10px auto;
+}
+
+/*styles for form elements*/
+.lastname{
+    margin: auto auto 10px 1%;
+}
+
+/*styles for form elements*/
+input, select, textarea {
+    padding: 5px;
+    font-family: 'Poppins';
+    outline: none;
+    border: none;
+    background: #F8F8F8;
+}
+
+/*styles for focus effect for form elements*/
+input:focus, select:focus, textarea:focus {
+    border: 1px solid #0F57FB;
+}
+
+/*styles for textarea form elements*/
+textarea {
+    width: 98%;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+/*styles for select form elements*/
+select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/*styles for input form elements*/
+input[type=submit] {
+    width: 30%;
+    background: #0F57FB;
+    color: white;
+    height: 34px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto 0;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+/*styles for hover effect on input form elements*/
+input[type=submit]:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+   .logo{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: xx-large;
+}
+
+.nav-container{
+	padding:0;
+	margin:0;
+	background-color: #666;
+	display: flex;
+
+}
+
+.nav-container a {
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+
+}
+
+/*Style section for Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.logo{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: xx-large;
+}
+
+.nav-container{
+	padding:0;
+	margin:0;
+	background-color: #666;
+	display: flex;
+
+}
+
+.nav-container a {
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+
+}
+
+section{
+	flex-direction: column;
+}
+
+.main-section2-image img{
+    height:37em;
+	width:30em;
+}
+
+
+}
+
+
+
+
+/*Style section for Desktop/large screens*/
+@media only screen and (min-width: 769px) {
+	.logo{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: xx-large;
+}
+
+.nav-container{
+	padding:0;
+	margin:0;
+	background-color: #666;
+	display: flex;
+
+}
+
+.nav-container a {
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+
+}
+
+.matter{
+    
+	display: flex;
+	flex-direction: column;
+	margin-left:20%;
+	
+}
+
+.link{
+	margin-left: 5%;
+	width:20%;
+	
+}
+}
+
+footer {
+    background-color: #666;  
+    margin-top:10%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col1, .col2 {
+    width: 30%;
+    text-align: center;
+}
+
+
+.copyright {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 12px;
+}

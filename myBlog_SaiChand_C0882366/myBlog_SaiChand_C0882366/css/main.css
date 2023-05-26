@@ -1,0 +1,201 @@
+/*This is the CSS code for creating a web page for personal blog. Written by: Sai Chand Akkisani, Student Id: C0882366*/
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+ 	.logo{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: xx-large;
+}
+
+.nav-container{
+	padding:0;
+	margin:0;
+	background-color: #666;
+	display: flex;
+
+}
+
+.nav-container a {
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+
+}
+
+
+section{
+    
+	display: flex;
+	flex-direction: column;
+	
+}
+
+section img{
+	height: 27em;
+    width: 15em;
+}
+}
+
+section table,td,th{
+	margin-left: 5%;
+	border:1px solid black;
+	text-align: center;
+	padding:8px;
+	width:50%;
+
+}
+
+aside{
+	margin-left: 5%;
+	width:40%;
+	
+}
+
+
+
+}
+
+
+
+
+/*Style section for Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.logo{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: xx-large;
+}
+
+.nav-container{
+	padding:0;
+	margin:0;
+	background-color: #666;
+	display: flex;
+
+}
+
+.nav-container a {
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+
+}
+
+
+section{
+    
+	display: flex;
+	flex-direction: row;
+	
+}
+
+section img{
+	height:37em;
+	width:30em;
+}
+
+section table,td,th{
+	margin-left: 5%;
+	border:1px solid black;
+	text-align: center;
+	padding:8px;
+	width:50%;
+
+}
+
+aside{
+	margin-left: 5%;
+	width:40%;
+	
+}
+
+
+
+}
+
+
+
+
+/*Style section for Desktop/large screens*/
+@media only screen and (min-width: 769px) {
+	.logo{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: xx-large;
+}
+
+.nav-container{
+	padding:0;
+	margin:0;
+	background-color: #666;
+	display: flex;
+
+}
+
+.nav-container a {
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+
+}
+
+
+section{
+    
+	display: flex;
+	flex-direction: row;
+	
+}
+
+section img{
+	height:37em;
+	width:30em;
+}
+
+section table,td,th{
+	margin-left: 5%;
+	border:1px solid black;
+	text-align: center;
+	padding:8px;
+	width:50%;
+
+}
+
+aside{
+	margin-left: 5%;
+	width:40%;
+	
+}
+footer {
+    background-color: #666;   
+    color: white;
+    margin-top:30%;
+}
+
+}
+
+
+footer {
+    background-color: #666;   
+    color: white;
+    margin-top:63%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col1, .col2 {
+    width: 30%;
+    text-align: center;
+}
+
+
+.copyright {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+
